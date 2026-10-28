@@ -13,11 +13,11 @@ export default function Navbar() {
         <a href="/#features">Features</a>
         <a href="/#how-it-works">How it works</a>
 
-        <NavLink to="/login" className="nav-login">
+        <NavLink to="user/login" className="nav-login">
           Log in
         </NavLink>
 
-        <Link to="/register" className="nav-cta">
+        <Link to="user/register" className="nav-cta">
           Get started <span>→</span>
         </Link>
       </nav>

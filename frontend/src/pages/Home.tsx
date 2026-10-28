@@ -303,7 +303,7 @@ export default function Home() {
           <p>
             Bring your applications together and take the next step.
           </p>
-          <Link to="/register" className="button button-light">
+          <Link to="user/register" className="button button-light">
             Get started with JobFlow <span>→</span>
           </Link>
         </section>
